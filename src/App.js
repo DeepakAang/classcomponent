@@ -1,10 +1,13 @@
 import './App.css';
-import First from './first';
+
+import Parent from './classcomponent/parent'
 
 function App() {
   return (
     <div className="App">
-      <First/>
+      
+      <Parent/>
+     
     </div>
   );
 }
